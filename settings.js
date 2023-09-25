@@ -25,17 +25,17 @@ LimitApikey = 200 // Limit Apikey default
 
 //___________ ┏  Database Mongodb Setting  ┓ ___________\\
 
-keymongodb = process.env.mongodb //example "mongodb+srv://user:password@name_database.mongodb.net/?retryWrites=true&w=majority";
+keymongodb = "mongodb+srv://ndrahost:##08Ndra@datandra.0axrxaz.mongodb.net/?retryWrites=true&w=majority"; //example "mongodb+srv://user:password@name_database.mongodb.net/?retryWrites=true&w=majority";
 
 //___________ ┏  SMTP Setting  ┓ ___________\\
 
 //note service SMTP Gmail Tidak Boleh Send Kat Temp Email Kalau mahu pakai temp email buat di service lain
 usetempemail = false // kalau true boleh sing up pakai email temp kalau pakai service gmail pakai false je 
-servicesmtp = 'Gmail'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 limit sendinblue 300 free. List service smtp : https://nodemailer.com/smtp/well-known/
-sendemail = process.env.sendemail //Email SMTP
-fromsendemail = process.env.fromsendemail // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
-sendpwmail = process.env.sendpwmail // Password Email SMTP
-domain = 'api.ndrahosting.cloud'// domain website tanpa http or https
+servicesmtp = 'munipangjay@gmail.com'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 limit sendinblue 300 free. List service smtp : https://nodemailer.com/smtp/well-known/
+sendemail = 'munipangjay@gmail.com' //Email SMTP
+fromsendemail = 'munipangjay@gmail.com' // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
+sendpwmail = 'fazzjbndqfpwvxjk' // Password Email SMTP
+domain = 'api.ndrahosting.com'// domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
